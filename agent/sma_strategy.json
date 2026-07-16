@@ -1,0 +1,21 @@
+{
+  "strategy_name": "SMA_CROSS_1H",
+  "universe": ["SPY", "QQQ", "AAPL"],
+  "timeframe": "1h",
+  "indicators": {
+    "sma_fast": 50,
+    "sma_slow": 200,
+    "volume_filter": true,
+    "volume_multiplier": 1.5
+  },
+  "execution_rules": {
+    "buy_signal": "sma_fast crosses above sma_slow",
+    "sell_signal": "sma_fast crosses below sma_slow"
+  },
+  "risk_management": {
+    "max_open_positions": 4,
+    "max_position_size_pct": 2.0,
+    "hard_stop_loss_pct": 1.5,
+    "daily_max_loss_limit_pct": 3.0
+  }
+}
