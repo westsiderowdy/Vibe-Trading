@@ -146,7 +146,7 @@ qq = [
 ]
 slack = [
     "slack-sdk>=3.33.0",
-    "slackify-markdown>=4.4.0",
+    
 ]
 telegram = [
     "python-telegram-bot>=21.0",
