@@ -7,7 +7,7 @@ name = "vibe-trading-ai"
 version = "0.1.11"
 description = "Natural-language finance research AI agent"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4.0.0"
 license = { text = "MIT" }
 authors = [
     { name = "HKUDS" }
