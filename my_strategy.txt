@@ -1,0 +1,14 @@
+# STRATEGY REQUIREMENTS
+[INDICATORS]
+Primary: 50-period Simple Moving Average (SMA50)
+Secondary: 200-period Simple Moving Average (SMA200)
+Timeframe: 1-Hour Charts
+
+[EXECUTION RULES]
+Buy Signal: Trigger a BUY market order when SMA50 crosses ABOVE SMA200.
+Sell Signal: Trigger a SELL market order when SMA50 crosses BELOW SMA200.
+Target Assets: ["SPY", "QQQ", "AAPL"]
+
+[RISK MANAGEMENT]
+Max Position Size: 2% of total account equity per trade.
+Safety Default: Hard stop-loss at 1.5% below entry price.
