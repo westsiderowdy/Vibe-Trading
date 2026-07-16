@@ -16,6 +16,8 @@
     "max_open_positions": 4,
     "max_position_size_pct": 2.0,
     "hard_stop_loss_pct": 1.5,
-    "daily_max_loss_limit_pct": 3.0
+    "daily_max_loss_limit_pct": 3.0,
+    "paper_mode": true,
+    "broker": "alpaca"
   }
 }
